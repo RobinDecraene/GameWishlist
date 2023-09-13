@@ -23,7 +23,7 @@ return (
       <Card></Card>
       <Card></Card>
       <Link to={`${ROUTES.add}`}>
-      <button class={style.premièreBtn}>add Game</button>
+      <button class={style.premièreBtn}>Add Game</button>
       </Link>
       
     </section>
