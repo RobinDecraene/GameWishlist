@@ -1,0 +1,24 @@
+nav {
+  background-color: #424242;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+li {
+  margin-right: 10%;
+}
+
+a {
+  color: #E4E4E4;
+  text-decoration: none;
+}

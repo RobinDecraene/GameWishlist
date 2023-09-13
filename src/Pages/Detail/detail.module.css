@@ -1,0 +1,52 @@
+.detailPage {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0 0;
+}
+
+.detailCard {
+  display: flex;
+  width: 70%;
+  background-color: #424242;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.detailCard img {
+  width: 90%;
+  height: auto;
+}
+
+.detailCard p {
+  width: 90%;
+}
+
+
+.detailtings {
+  width: 20%;
+}
+
+.descriptionDetails {
+  width: 80%;
+}
+
+.detailTitle {
+  font-size: 2.3rem;
+}
+
+.premièreBtn {
+  background-color: #02733E;
+  border: none;
+  color: #E4E4E4;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  transition: 0.5s;
+  margin-right: 1rem;
+  }
+  
+  .tertaireBtn {
+  background-color: transparent;
+  border: none;
+  color: #E4E4E4;
+  transition: 0.5s;
+  }
