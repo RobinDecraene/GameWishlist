@@ -22,9 +22,6 @@ return (
       <Card></Card>
       <Card></Card>
       <Card></Card>
-      <Link to={`${ROUTES.add}`}>
-      <button class={style.premièreBtn}>Add Game</button>
-      </Link>
       
     </section>
     
