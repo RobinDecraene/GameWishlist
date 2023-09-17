@@ -13,7 +13,13 @@ return (
         <Link to={ROUTES.home} className={location.pathname === ROUTES.home ? style.activeNav : ''}>Home</Link>
         </li>
         <li>
-        <Link to={ROUTES.add} className={location.pathname === ROUTES.add ? style.activeNav : ''}>Add Game</Link>
+        <a href="/">Fantasy</a>
+        </li>
+        <li>
+        <a href="/">Action</a>
+        </li>
+        <li>
+        <a href="/">Open World</a>
         </li>
       </ul>
     </nav>
