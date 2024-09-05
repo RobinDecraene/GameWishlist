@@ -1,0 +1,35 @@
+{
+    "name": "robin/wishlist",
+    "description": "gaming wishlist",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Decraene Robin",
+            "email": "robin.decraene@student.arteveldehs.be"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.2",
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6",
+        "filp/whoops": "^2.14",
+        "illuminate/database": "^10.1",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "scripts": {
+        "snuffel":"phpcs --standard=PSR12 src/" ,
+        "snuffel:fix": "phpcbf --standard=PSR12 src",
+        "server": "php -S 127.0.0.1:5678 -t public"
+    },
+    "config": {
+        "process-timeout": 0
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7"
+    }
+}
